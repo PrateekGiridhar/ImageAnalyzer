@@ -1,1 +1,2 @@
 # ImageAnalyzer
+A Python-based steganography analysis and visualization tool inspired by Stegsolve. This project enables users to explore hidden data in images through bit-plane analysis, color channel separation, LSB data extraction, and more. Designed for cybersecurity enthusiasts, CTF participants, and researchers, it provides a user-friendly interface for uncovering concealed information in digital images.
