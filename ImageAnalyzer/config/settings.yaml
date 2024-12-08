@@ -1,0 +1,7 @@
+# Configuration settings for the ImageAnalyzer application
+app_name: "ImageAnalyzer"
+version: "0.1.0"
+default_image_format: "png"
+gui:
+  window_title: "ImageAnalyzer"
+  window_size: "800x600"
