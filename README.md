@@ -1,2 +1,23 @@
 # ImageAnalyzer
-A Python-based steganography analysis and visualization tool inspired by Stegsolve. This project enables users to explore hidden data in images through bit-plane analysis, color channel separation, LSB data extraction, and more. Designed for cybersecurity enthusiasts, CTF participants, and researchers, it provides a user-friendly interface for uncovering concealed information in digital images.
+
+ImageAnalyzer is a Python-based tool for performing steganography operations on images. It supports techniques like LSB (Least Significant Bit) encoding and decoding and provides a user-friendly graphical interface.
+
+## Features
+- Encode messages into images using LSB.
+- Decode hidden messages from images.
+- Simple GUI for ease of use.
+
+## Requirements
+- Python 3.8+
+- Required libraries (see `requirements.txt`)
+
+## Installation
+1. Clone the repository:
+   git clone https://github.com/PrateekGiridhar/ImageAnalyzer.git
+   cd ImageAnalyzer
+
+2. Install dependencies:
+    pip install -r requirements.txt
+
+3. Run the application:
+    python -m ImageAnalyzer.main

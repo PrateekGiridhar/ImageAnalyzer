@@ -1,5 +1,5 @@
 import unittest
-from stegsolve.core.lsb import encode_lsb, decode_lsb
+from ImageAnalyzer.core.lsb import encode_lsb, decode_lsb
 
 class TestLSB(unittest.TestCase):
     

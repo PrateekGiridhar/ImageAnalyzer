@@ -1,6 +1,6 @@
 import tkinter as tk
 from tkinter import filedialog
-from stegsolve.core.lsb import encode_lsb, decode_lsb
+from ImageAnalyzer.core.lsb import encode_lsb, decode_lsb
 
 def run_gui():
     def encode():

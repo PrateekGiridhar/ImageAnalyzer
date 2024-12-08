@@ -1,4 +1,4 @@
-from stegsolve.core.lsb import encode_lsb, decode_lsb
+from ImageAnalyzer.core.lsb import encode_lsb, decode_lsb
 from stegsolve.gui.gui_main import run_gui
 
 def main():
