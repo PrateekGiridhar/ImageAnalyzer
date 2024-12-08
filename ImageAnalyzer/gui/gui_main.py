@@ -20,7 +20,7 @@ def run_gui():
             label_status.config(text=f"Decoded Message: {message}")
     
     root = tk.Tk()
-    root.title("Stegsolve Clone")
+    root.title("ImageAnalyzer")
     
     tk.Label(root, text="Message:").pack()
     entry_message = tk.Entry(root)
